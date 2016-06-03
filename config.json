@@ -1,3 +1,4 @@
 {
-  "default_port": 3003
+  "default_port": 3003,
+  "upload_directory": "/Users/sam/testuploads"
 }
