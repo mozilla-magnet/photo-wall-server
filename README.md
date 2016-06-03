@@ -25,6 +25,13 @@ Required headers:
 
 None
 
+Options headers:
+`Accept: text/event-stream`
+
+Will set up Server Sent Events with an event for each
+new upload since registering: See
+https://developer.mozilla.org/en/docs/Web/API/EventSource
+
 Response:
 
 `Content-Type: application/json`
