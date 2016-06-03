@@ -5,7 +5,8 @@
   "homepage": "https://github.com/mozilla-magnet/photo-wall-server",
   "main": "index.js",
   "scripts": {
-    "test": "mocha && eslint ."
+    "test": "mocha && eslint .",
+    "start": "node index.js"
   },
   "author": "Sam Giles <sgiles@mozilla.com>",
   "license": "MPL-2.0",
