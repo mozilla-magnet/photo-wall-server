@@ -2,13 +2,19 @@
   "name": "photo-wall-server",
   "version": "1.0.0",
   "description": "A simple server for running a Photo Wall",
+  "homepage": "https://github.com/mozilla-magnet/photo-wall-server",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha && eslint ."
   },
   "author": "Sam Giles <sgiles@mozilla.com>",
   "license": "MPL-2.0",
   "devDependencies": {
-    "mocha": "^2.5.3"
+    "eslint": "^2.11.1",
+    "mocha": "^2.5.3",
+    "superagent": "^2.0.0"
+  },
+  "dependencies": {
+    "morgan": "^1.7.0"
   }
 }
