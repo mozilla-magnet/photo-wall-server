@@ -13,7 +13,10 @@
   "devDependencies": {
     "eslint": "^2.11.1",
     "mocha": "^2.5.3",
-    "superagent": "^2.0.0"
+    "superagent": "^2.0.0",
+    "chakram": "^1.2.2",
+    "fs-extra": "^0.30.0",
+    "mz": "^2.4.0"
   },
   "dependencies": {
     "express": "^4.13.4",
